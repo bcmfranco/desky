@@ -5,7 +5,29 @@
       <Brander />
     </div>
 
-    <div>core</div>
+    <div id="core">
+      <div class="box">
+        <a href="https://codev-ar.atlassian.net/jira/software/projects/URG/boards/44/backlog" target="_blank">URG Backlog</a>
+      </div>
+      <div class="box">
+        <a href="https://codev-ar.atlassian.net/jira/software/projects/URG/boards/44" target="_blank">URG Tablero</a>
+      </div>
+      <div class="box">
+        <a href="https://codev-ar.atlassian.net/jira/software/projects/AZ/boards/55/backlog" target="_blank">AZK Backlog</a>
+      </div>
+      <div class="box">
+        <a href="https://codev-ar.atlassian.net/jira/software/projects/AZ/boards/55" target="_blank">AZK Tablero</a>
+      </div>
+      <div class="box">
+        <a href="https://codev-ar.atlassian.net/jira/software/projects/GA/boards/60/backlog" target="_blank">GOF Backlog</a>
+      </div>
+      <div class="box">
+        <a href="https://codev-ar.atlassian.net/jira/software/projects/GA/boards/60" target="_blank">GOF Tablero</a>
+      </div>
+      <div class="box">
+        <a href="https://codev-ar.atlassian.net/jira/servicedesk/projects/SD/queues/custom/2" target="_blank">SD Colas</a>
+      </div>
+    </div>
 
   </div>
 </template>
@@ -55,20 +77,6 @@ export default {
   color: #26a69a;
 }
 
-#isotype h1 {
-  color: #26a69a;
-  margin: 0px;
-  padding: 0px;
-}
-
-#isotype h2 {
-  font-size: 24px;
-  color: #26a69a;
-  margin-bottom: 20px;
-  margin: 0px;
-  padding: 0px;
-}
-
 label {
   font-size: 16px;
   color: #26a69a;
@@ -89,30 +97,27 @@ input[disabled] {
   background-color: #f5f5f5;
 }
 
-button {
-  font-size: 16px;
-  padding: 10px 20px;
-  background-color: #26a69a;
-  color: #fff;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
+#core {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
 }
 
-button:hover {
-  background-color: #00796b;
+.box {
+  background-color: #723f78;
+  padding: 20px;
+  text-align: center;
+  border-radius: 8px;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
 }
 
 @media (max-width: 480px) {
   #container {
-    display: flex;
-    flex-direction: column;
-  }
-
-  #container #brand{
-    /* grid-template-columns: 1fr; */
-
     display: flex;
     flex-direction: column;
   }
