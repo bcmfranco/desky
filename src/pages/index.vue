@@ -5,7 +5,7 @@
       <Brander />
     </div>
 
-    <div id="core">
+    <div id="shelf">
       <div class="box">
         <a href="https://codev-ar.atlassian.net/jira/software/projects/URG/boards/44/backlog" target="_blank">URG Backlog</a>
       </div>
@@ -26,6 +26,9 @@
       </div>
       <div class="box">
         <a href="https://codev-ar.atlassian.net/jira/servicedesk/projects/SD/queues/custom/2" target="_blank">SD Colas</a>
+      </div>
+      <div class="box">
+        <a href="https://bitbucket.org/codev1/workspace/overview/" target="_blank">BITBUCKET</a>
       </div>
     </div>
 
@@ -66,60 +69,34 @@ export default {
   font-family: Nunito;
 }
 
-#calculator_form {
-  display: flex;
-  flex-direction: column;
-  max-width: 400px;
-  margin: 0 auto;
-}
-
-#calculator_form h2{
-  color: #26a69a;
-}
-
-label {
-  font-size: 16px;
-  color: #26a69a;
-  margin-bottom: 8px;
-}
-
-input {
-  font-size: 16px;
-  padding: 10px;
-  border: 1px solid #26a69a;
-  border-radius: 4px;
-  margin-bottom: 20px;
-  width: 100%;
-  box-sizing: border-box;
-}
-
-input[disabled] {
-  background-color: #f5f5f5;
-}
-
-#core {
+#shelf {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 20px;
+  margin-top: 30px;
 }
 
 .box {
   background-color: #723f78;
   padding: 20px;
-  text-align: center;
   border-radius: 8px;
+  width: 150px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
 }
 
 a {
-  color: #fff;
   text-decoration: none;
   font-size: 18px;
+  color: #fff;
 }
 
 @media (max-width: 480px) {
   #container {
     display: flex;
     flex-direction: column;
+    margin-top: unset;
   }
 }
 
