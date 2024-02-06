@@ -71,6 +71,8 @@ export default {
   justify-items: center;
   height: 100vh;
   font-family: Nunito;
+  background: rgb(159,48,162);
+  background: linear-gradient(129deg, rgba(159,48,162,1) 0%, rgba(67,115,156,1) 52%);
 }
 
 #shelf {
@@ -101,6 +103,14 @@ a {
     display: flex;
     flex-direction: column;
     margin-top: unset;
+  }
+
+  .box{
+    width: 150px;
+    height: 75px;
+    padding: 0px;
+    margin: 0px;
+    line-height: 75px;
   }
 }
 
