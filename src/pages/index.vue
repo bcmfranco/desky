@@ -70,9 +70,8 @@ export default {
   align-items: center;
   justify-items: center;
   height: 100vh;
-  font-family: Nunito;
-  background: rgb(159,48,162);
   background: linear-gradient(129deg, rgba(159,48,162,1) 0%, rgba(67,115,156,1) 52%);
+  font-family: Nunito;
 }
 
 #shelf {
