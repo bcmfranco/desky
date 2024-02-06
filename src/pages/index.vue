@@ -30,14 +30,18 @@
       <div class="box">
         <a href="https://bitbucket.org/codev1/workspace/overview/" target="_blank">BITBUCKET</a>
       </div>
+      <div class="box">
+        <a href="https://docs.google.com/spreadsheets/d/1KBwLndLSXm_ip4CD-5xr32FZ3hr1br4lmnjHwUONvQM/edit" target="_blank">URG HORAS</a>
+      </div>
+      <div class="box">
+        <a href="https://docs.google.com/spreadsheets/d/1oqgH_ci9RvHELqBD1pF0tuaLtrpA2ZjtU9gNAPM84Ew/edit#gid=1922020271" target="_blank">AZK HORAS</a>
+      </div>
     </div>
 
   </div>
 </template>
 
 <script>
-
-// Poner todo el header dentro de un componente, y la navbarr adentro
 
 import Brander from '../../public/components/brander.vue';
 
