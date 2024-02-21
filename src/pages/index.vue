@@ -38,23 +38,37 @@
       </div>
     </div>
 
+    <div>
+      <Footer />
+    </div>
   </div>
 </template>
 
 <script>
-
 import Brander from '../../public/components/brander.vue';
+import Footer from '../../public/components/footer.vue';
+
 
 export default {
   components: {
-    Brander
+    Brander,
+    Footer
   },
   data() {
     return {
-
+      inputData: ''
     };
   },
-  computed: {
+  methods: {
+    saveToLocalStorage() {
+      if (this.inputData.trim() !== '') {
+        localStorage.setItem('userData', this.inputData);
+        this.inputData = ''; // Limpiar el input después de guardar
+        alert('Datos guardados en el almacenamiento local.');
+      } else {
+        alert('Ingrese datos antes de guardar.');
+      }
+    }
   }
 };
 </script>
