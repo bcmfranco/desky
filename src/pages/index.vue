@@ -38,16 +38,11 @@
       </div>
     </div>
 
-    <div>
-      <Footer />
-    </div>
   </div>
 </template>
 
 <script>
 import Brander from '../../public/components/brander.vue';
-import Footer from '../../public/components/footer.vue';
-
 
 export default {
   components: {
