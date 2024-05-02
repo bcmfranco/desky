@@ -46,8 +46,7 @@ import Brander from '../../public/components/brander.vue';
 
 export default {
   components: {
-    Brander,
-    Footer
+    Brander
   },
   data() {
     return {
