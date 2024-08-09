@@ -13,16 +13,31 @@
         <a href="https://codev-ar.atlassian.net/jira/software/projects/URG/boards/44" target="_blank">URG Tablero</a>
       </div>
       <div class="box">
+        <a href="https://asociate.urg.com.ar/urg_plus/" target="_blank">Asociate Prod</a>
+      </div>
+      <div class="box">
+        <a href="https://beneficios.urg.com.ar/" target="_blank">Beneficios Prod</a>
+      </div>
+      <div class="box">
+        <a href="https://asociate-testing.codev.com.ar/" target="_blank">Asociate Testing</a>
+      </div>
+      <div class="box">
         <a href="https://codev-ar.atlassian.net/jira/software/projects/AZ/boards/55/backlog" target="_blank">AZK Backlog</a>
       </div>
       <div class="box">
         <a href="https://codev-ar.atlassian.net/jira/software/projects/AZ/boards/55" target="_blank">AZK Tablero</a>
       </div>
       <div class="box">
+        <a href="https://www.azkar.com.ar/" target="_blank">AZK Prod</a>
+      </div>
+      <div class="box">
         <a href="https://codev-ar.atlassian.net/jira/software/projects/GA/boards/60/backlog" target="_blank">GOF Backlog</a>
       </div>
       <div class="box">
         <a href="https://codev-ar.atlassian.net/jira/software/projects/GA/boards/60" target="_blank">GOF Tablero</a>
+      </div>
+      <div class="box">
+        <a href="https://www.golfargentino.com/" target="_blank">Golf Prod</a>
       </div>
       <div class="box">
         <a href="https://codev-ar.atlassian.net/jira/servicedesk/projects/SD/queues/custom/2" target="_blank">SD Colas</a>
