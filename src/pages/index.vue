@@ -40,7 +40,7 @@
         <a href="https://www.golfargentino.com/" target="_blank">Golf Prod</a>
       </div>
       <div class="box">
-        <a href="https://codev-ar.atlassian.net/jira/servicedesk/projects/SD/queues/custom/2" target="_blank">SD Colas</a>
+        <a href="https://codev-ar.atlassian.net/jira/servicedesk/projects/SD/queues/custom/2" target="_blank">SD Tickets</a>
       </div>
       <div class="box">
         <a href="https://bitbucket.org/codev1/workspace/overview/" target="_blank">BITBUCKET</a>
@@ -50,6 +50,9 @@
       </div>
       <div class="box">
         <a href="https://docs.google.com/spreadsheets/d/1oqgH_ci9RvHELqBD1pF0tuaLtrpA2ZjtU9gNAPM84Ew/edit#gid=1922020271" target="_blank">AZK HORAS</a>
+      </div>
+      <div class="box">
+        <a href="https://docs.google.com/spreadsheets/d/1P1irXEcikWUnvcMIxAyFaMo_WpFPbe3VB_GKw8A8xOI/edit?gid=0#gid=0" target="_blank">HORAS TOTALES</a>
       </div>
     </div>
 
